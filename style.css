@@ -1,0 +1,85 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(27, 209, 57);
+}
+.div-navbar {
+    background-color: rgb(25, 151, 34);
+}
+.ul-navbar {
+    height: 100px;
+    justify-content: center; /*membuat agar list ke tengah(samping)*/
+    align-items: center; /*untuk membuat list ke tengah(bawah) */
+    display: flex; /*untuk membuat list berjejer ke samping*/
+}
+.li-navbar {
+    border: 1px solid rgb(255, 255, 255); /*untuk membuat border pada list*/
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 15px; /*untuk melebarkan jarak*/
+    list-style-type: none; /*untuk mengilangkan titik list(none)*/
+    color: rgb(255, 255, 255); /*untuk merubah warna tulisan*/
+    margin: 5px; /*untuk membuat spasi antar list*/
+}
+.li-navbar:hover{/*untuk merubah warna kalau mouse menyentuhnya*/
+    background-color: rgb(126, 125, 125);
+    transition: .3s ease-in-out;/*untuk membuat transisi*/
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.div-content {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-content{
+    border: 2px solid black;
+}
+.div-footer{
+    border: 3px solid black;
+}
+
+
+.h3-footer-identitas{
+    border: 1px solid black;
+}
+.li1-footer{
+    font-size: 12px;
+}
+.li2-footer{
+    font-size: 12px;
+}
+.li3-footer{
+    font-size: 12px;
+}
+
+.h3-footer-carir{
+    border: 1px solid black;
+}
+
+.h3-footer-karya{
+    border: 1px solid black;
+}
+
+.a{
+    color: white;
+    text-decoration: none; /*menghilangkan garis bawah*/
+}
+
+.ul-carir{
+    font-size: 12px;
+    padding:10
+}
+.a-img{
+    font-size: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
